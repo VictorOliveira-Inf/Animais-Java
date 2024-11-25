@@ -1,0 +1,34 @@
+ int tamanho = 0;  
+ int adicional = 0;
+ int resultado;
+
+        
+if(jRadioButton1.isSelected())
+{
+tamanho = 5;
+}
+else
+if(jRadioButton2.isSelected())
+{
+tamanho = 7;
+}
+if(jRadioButton3.isSelected())
+{
+tamanho = 10;
+}
+
+if(jCheckBox1.isSelected())
+{
+adicional += 2 ;
+}
+if(jCheckBox2.isSelected())
+{
+adicional += 3 ;
+}
+if(jCheckBox3.isSelected())
+{
+adicional += 4 ;
+}
+resultado = tamanho + adicional;
+
+JOptionPane.showMessageDialog(null,"Valor a ser pago:" + resultado );
